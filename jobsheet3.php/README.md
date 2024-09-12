@@ -41,6 +41,12 @@ class Student extends Person {
 }
 ~~~
 Diatas adalah implementasi inheritance, dibawah akan dilanjutkan proses polymorphism
+DOKUMENTASI PROGRAM :
+![inher](https://github.com/user-attachments/assets/bb46e0e8-1f31-4935-9365-862aeac6718d)
+OUTPUT :
+
+
+
 
 ## Polymorphism
 #### Polimorfisme(polymorphism)-> adalah prinsip OOP yang memungkinkan metode yang sama untuk berperilaku berbeda tergantung pada objek yang memanggilnya. Ini memberikan fleksibilitas dalam penggunaan dan penerapan metode, memungkinkan penggunaan antarmuka yang sama untuk objek yang berbeda.
@@ -70,6 +76,11 @@ Proses ini digunakan untuk menginisialisasi (construct), getName untuk menampilk
         return $this->teacherID; 
     }
 ~~~
+DOKUMENTASI PROGRAM:
+![polymor](https://github.com/user-attachments/assets/9a62d57c-48d2-45b3-bafd-14c042c59e53)
+OUTPUT :
+
+
 ## Encapsulation
 #### Enkapsulasi(encapsulation)-> adalah prinsip OOP yang menyembunyikan data dalam suatu objek dan hanya membiarkan akses melalui metode atau fungsi yang telah ditentukan. Ini membantu menjaga data tetap aman dan terstruktur, serta mencegah akses atau manipulasi yang tidak diinginkan.
 A. Proses mengubah atribut.
@@ -101,6 +112,10 @@ proses ini digunakan untuk mengubah nilai nama dan juga id
         $this->studentID = $studentID;
     }
 ~~~
+DOKUMENTASI PROGRAM :
+![encapsulasi](https://github.com/user-attachments/assets/e71be6dc-bbcc-4b91-ad35-a781c9324c7e)
+OUTPUT :
+
 ## Abstraction
 #### Abstraksi(abstraction)-> adalah proses menyederhanakan kompleksitas dengan hanya menampilkan fitur penting dari suatu objek, sementara detail yang tidak perlu disembunyikan. Abstraksi membantu pengembang fokus pada aspek-aspek penting dari sistem yang sedang dibangun.
 A. pembuatan class abstrak
@@ -154,7 +169,9 @@ class OfflineCourse extends Course {
 }
 ~~~
 DOKUMENTASI PROGRAM:
+![abstraction](https://github.com/user-attachments/assets/4b4cbc3e-8be8-4df4-96bf-05b355ff211f)
 OUTPUT :
+
 
 # Tugas
 Dalam jobsheet tugas kali ini, saya cantumkan instruksi setiap langkah dan kode programnya.
@@ -214,6 +231,100 @@ class Mahasiswa extends Person {
 ~~~
 ### 3. Terapkan Polymorphism dengan membuat metode getRole() di kelas person dan override metoed ini di class dosen dan mahasiswa untuk menampilkan peran berbeda.
 proses ini menambahkan getRole(), dan melakukan override untuk perubahan format.
+ ~~~ php
+//buat metoed getRole() {
+   public function getRole() {
+    return $this->role;
+}
+~~~
+dilanjutkan dengan proses override nya metode getrole
+~~~ php
+// melakukan proses override untuk metode getRole()
+    public function getRole() {
+        return "ROLE: $this->role";
+    }
+~~~
+### 4. Gunakan Encapsulation untuk melindungi atribut nidn di kelas Dosen dan nim di kelas mahasiswa.
+proses ini memprivat atribut nidn dan nim
+~~~ php
+/ Kelas Dosen yang nurunin dari Person
+class Dosen extends Person {
+    private $nidn;
+~~~
+~~~ php
+/ Kelas Mahasiswa yang nurunin dari Person
+class Mahasiswa extends Person {
+    private $nim; // Pake encapsulation dengan atribut private
+~~~
+### 5. Buat kelas abstrak Jurnal dan implementasikan konsep Abstraction dengan membuat kelas turunan JurnalDosen dan JurnalMahasiswa yang masing-masing memiliki cara tersendiri untuk mengelola pengajuan jurnal.
+proses ini membuat class jurnal dengan abstrak
+~~~ php
+// Kelas abstrak Jurnal
+abstract class Jurnal {
+    protected $judul;
+    protected $penulis;
+    protected $status;
+
+
+    // Constructor buat inisialisasi judul jurnal
+    public function __construct($judul, $penulis, $status) {
+        $this->judul = $judul;
+        $this->penulis = $penulis;
+        $this->status = $status;
+    }
+
+    // Metode abstrak buat ajukan jurnal
+    abstract public function ajukanJurnal();
+
+    //kita buat metode getjudu()
+    public function getJudul() {
+        return $this->judul;
+    }
+
+    //buat metode getpenulis() 
+    public function getPenulis() {
+        return $this->penulis;
+    }
+
+    //buat metode getstatus()
+    public function getStatus() {
+        return $this->status;
+    }
+}
+
+// Kelas JurnalDosen yang nurunin dari Jurnal
+class JurnalDosen extends Jurnal {
+   //buat metode satatusPengajuannya
+   public function statusPengajuan() {
+    return "judul: {$this->getJudul()} <br> nama dosen: {$this->getPenulis()} <br> status pngajuan: {$this->getStatus()}";
+   }
+
+   public function ajukanJurnal(){
+    return "";
+   }
+}
+
+
+// Kelas JurnalMahasiswa yang nurunin dari Jurnal
+class JurnalMahasiswa extends Jurnal {
+    //buat metode satatusPengajuannya
+   public function statusPengajuan() {
+    return "judul: {$this->getJudul()} <br> nama mhs: {$this->getPenulis()} <br> status pngajuan: {$this->getStatus()}";
+   }
+
+   public function ajukanJurnal(){
+    return "";
+   }
+}
+~~~
+DOKUMENTASI PROGRAM:
+![tugas](https://github.com/user-attachments/assets/4d0f00f7-4d5e-4865-a1ec-c8901749e425)
+
+OUTPUT:
+
+
+
+
 
 
 
