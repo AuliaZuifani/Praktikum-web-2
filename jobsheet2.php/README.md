@@ -29,10 +29,10 @@ $mahasiswa1 = new mahasiswa("Fany", "230102030", "TI");
 echo $mahasiswa1->tampilkanData();
 ~~~
 Proses instansiasi ini membuat objek baru dengan nama $mahasiswa, dimana objek ini merupakan variabel untuk menampung data dari class mahasiswa yang disimbolkan dengan (new).
-- DOKUMENTASI PROGRAM:
+DOKUMENTASI PROGRAM:
   ![class_object](https://github.com/user-attachments/assets/b29d115c-3a95-4bbe-992a-19bf7df19270)
-
-- OUTPUT :
+OUTPUT :
+![Cuplikan layar 2024-09-12 080315](https://github.com/user-attachments/assets/2390ef84-cf86-4e6c-9721-41fd9829592f)
 
 
 ## Pengaplikasian Constructor
@@ -50,6 +50,8 @@ DOKUMENTASI PROGRAM:
 ![apk_construc](https://github.com/user-attachments/assets/f7a30b21-1964-42a5-b4f2-2b115ab39e54)
 
 OUTPUT PROGRAM :
+![Cuplikan layar 2024-09-12 080146](https://github.com/user-attachments/assets/bd8cf909-6327-4115-aebb-03ef49a072ac)
+
 
 ## Pembuatan Metode Tambahan
 Langkah 1: 
@@ -70,6 +72,8 @@ DOKUMENTASI PROGRAM:
 ![metode_tambahan](https://github.com/user-attachments/assets/fc7c54da-99a3-4eeb-956c-bba9f87ad3e4)
 
 OUTPUT :
+![Cuplikan layar 2024-09-12 080544](https://github.com/user-attachments/assets/e6beebc8-8dbf-4e8e-88f7-d0bc8e7302f7)
+
 
 ## Penggunaan Atribut dan Metode OOP
 A. Pembuatan metode getter setter
@@ -103,6 +107,7 @@ DOKUMENTASI PROGRAM:
 ![atribut_metode](https://github.com/user-attachments/assets/bc82ec6e-0f30-4d26-8f56-c002d6d63473)
 
 OUTPUT:
+![Cuplikan layar 2024-09-12 080405](https://github.com/user-attachments/assets/89d440b3-4d25-40e7-b839-985d01525f36)
 
 ## Tugas Jobsheet 2
 Berikut saya cantumkan instruksi dan juga potongan kode program nya.
@@ -141,6 +146,8 @@ DOKUMENTASI PROGRAM:
 ![tugas](https://github.com/user-attachments/assets/962ea42a-9e36-42e0-b17f-585738cf4378)
 
 OUTPUT:
+![Cuplikan layar 2024-09-12 080642](https://github.com/user-attachments/assets/81ebe917-75b3-40a1-b9a4-29e8db50d86c)
+
 
 
 
