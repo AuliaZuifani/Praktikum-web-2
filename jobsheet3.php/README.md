@@ -44,6 +44,7 @@ Diatas adalah implementasi inheritance, dibawah akan dilanjutkan proses polymorp
 DOKUMENTASI PROGRAM :
 ![inher](https://github.com/user-attachments/assets/bb46e0e8-1f31-4935-9365-862aeac6718d)
 OUTPUT :
+![Cuplikan layar 2024-09-12 080806](https://github.com/user-attachments/assets/7bcb82f4-cf75-4bdd-ae8f-7827bc36cb65)
 
 
 
@@ -79,6 +80,7 @@ Proses ini digunakan untuk menginisialisasi (construct), getName untuk menampilk
 DOKUMENTASI PROGRAM:
 ![polymor](https://github.com/user-attachments/assets/9a62d57c-48d2-45b3-bafd-14c042c59e53)
 OUTPUT :
+![image](https://github.com/user-attachments/assets/e60fd0c6-cfa9-41c0-a525-9578fe07da24)
 
 
 ## Encapsulation
@@ -115,6 +117,7 @@ proses ini digunakan untuk mengubah nilai nama dan juga id
 DOKUMENTASI PROGRAM :
 ![encapsulasi](https://github.com/user-attachments/assets/e71be6dc-bbcc-4b91-ad35-a781c9324c7e)
 OUTPUT :
+![Cuplikan layar 2024-09-12 080904](https://github.com/user-attachments/assets/e7c7fea8-4257-48e6-877c-3253d7168d46)
 
 ## Abstraction
 #### Abstraksi(abstraction)-> adalah proses menyederhanakan kompleksitas dengan hanya menampilkan fitur penting dari suatu objek, sementara detail yang tidak perlu disembunyikan. Abstraksi membantu pengembang fokus pada aspek-aspek penting dari sistem yang sedang dibangun.
@@ -171,6 +174,7 @@ class OfflineCourse extends Course {
 DOKUMENTASI PROGRAM:
 ![abstraction](https://github.com/user-attachments/assets/4b4cbc3e-8be8-4df4-96bf-05b355ff211f)
 OUTPUT :
+![Cuplikan layar 2024-09-12 081002](https://github.com/user-attachments/assets/c5eb21e9-c84e-4549-9cba-e8ad7687f1fd)
 
 
 # Tugas
@@ -321,6 +325,8 @@ DOKUMENTASI PROGRAM:
 ![tugas](https://github.com/user-attachments/assets/4d0f00f7-4d5e-4865-a1ec-c8901749e425)
 
 OUTPUT:
+![Cuplikan layar 2024-09-12 081126](https://github.com/user-attachments/assets/aec10d50-abef-4d74-a73e-b9d433475ab9)
+
 
 
 
