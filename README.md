@@ -6,10 +6,9 @@
 [![](https://img.shields.io/badge/Kelas-TI_2B-pink)](https://travis-ci.org/joemccann/dillinger)
 
 ## List of Contens
-  - [Materi OOP](https://github.com/AuliaZuifani/Praktikum-web-2/blob/main/Modul/README.md)
-  - [Jobsheet 1](https://github.com/AuliaZuifani/Praktikum-web-2/tree/main/Jobsheet/jobsheet1.php)
-  - [Jobsheet 2](https://github.com/AuliaZuifani/Praktikum-web-2/tree/main/Jobsheet/jobsheet2.php)
-  - [Jobsheet 3](https://github.com/AuliaZuifani/Praktikum-web-2/tree/main/Jobsheet/jobsheet3.php)
+  - [Jobsheet 1](https://github.com/AuliaZuifani/Praktikum-web-2/tree/main/jobsheet1.php)
+  - [Jobsheet 2]
+  - [Jobsheet 3]
 
 ## Introduce 
 Repositori Ini saya buat untuk memenuhi tugas mata kuliah Pemrograman Web-2 yang diampu oleh bapak Prih Diantoro Abda'u S.Kom.,M.Kom. 
