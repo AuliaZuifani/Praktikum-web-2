@@ -30,6 +30,8 @@ echo $mahasiswa1->tampilkanData();
 ~~~
 Proses instansiasi ini membuat objek baru dengan nama $mahasiswa, dimana objek ini merupakan variabel untuk menampung data dari class mahasiswa yang disimbolkan dengan (new).
 - DOKUMENTASI PROGRAM:
+  ![class_object](https://github.com/user-attachments/assets/b29d115c-3a95-4bbe-992a-19bf7df19270)
+
 - OUTPUT :
 
 
@@ -45,6 +47,8 @@ Metode Constructor ini adalah metode yang di gunakan untuk menganaliasi atribut.
 ~~~
 Proses pengaplikasian constructor ini ditandai dengan adanya penambahan metode construct pada class mahasiswa yang berfungsi untuk menganalisasi atau pemberian nilai awa pada masing-masing atributnya.
 DOKUMENTASI PROGRAM:
+![apk_construc](https://github.com/user-attachments/assets/f7a30b21-1964-42a5-b4f2-2b115ab39e54)
+
 OUTPUT PROGRAM :
 
 ## Pembuatan Metode Tambahan
@@ -63,6 +67,8 @@ $mahasiswa1->updateJurusan("TM");
 ~~~
 Perintah diatas merupakan perintah untuk menampilkan hasil update.
 DOKUMENTASI PROGRAM:
+![metode_tambahan](https://github.com/user-attachments/assets/fc7c54da-99a3-4eeb-956c-bba9f87ad3e4)
+
 OUTPUT :
 
 ## Penggunaan Atribut dan Metode OOP
@@ -94,6 +100,8 @@ proses tampil ini disimbolkan dengan keyword echo,
 echo $mahasiswa1->tampilkanData();
 ~~~
 DOKUMENTASI PROGRAM:
+![atribut_metode](https://github.com/user-attachments/assets/bc82ec6e-0f30-4d26-8f56-c002d6d63473)
+
 OUTPUT:
 
 ## Tugas Jobsheet 2
@@ -130,6 +138,8 @@ echo $dosen1->tampilkanDosen();
 ~~~
 pembuatan objek baru dengan nama $dosen1 sudah dilakukan, kemudian dilanjutkan dengan metode dan cara menampilkan outputnya.
 DOKUMENTASI PROGRAM:
+![tugas](https://github.com/user-attachments/assets/962ea42a-9e36-42e0-b17f-585738cf4378)
+
 OUTPUT:
 
 
