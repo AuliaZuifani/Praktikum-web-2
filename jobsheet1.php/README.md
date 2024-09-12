@@ -65,7 +65,10 @@ echo adalah perintah dalam PHP yang digunakan untuk menampilkan output ke layar.
 //proses mencetak data mahasiswa yg sudah diinputkan dengan memanggil function tampilkanData()
 echo $mahasiswa->tampilkanData();
 ~~~
-### Output :
+DOKUMENTASI PROGRAM:
+![class_object](https://github.com/user-attachments/assets/dd0a31de-ad36-4a7b-94a8-1c98c41237d9)
+
+OUTPUT :
 ![class objek](https://github.com/user-attachments/assets/a397bf28-3f0f-436f-b52f-2c6f4cecb0f9)
 
  
@@ -143,7 +146,9 @@ echo $mahasiswa->getNim();// Memanggil metode getNim() untuk mendapatkan dan men
 echo "<br>";
 echo $mahasiswa->getJurusan();// Memanggil metode getJurusan() untuk mendapatkan dan menampilkan nilai jurusan dari objek $mahasiswa
 ~~~
-### Output
+DOKUMENTASI PROGRAM:
+![encapsulasi](https://github.com/user-attachments/assets/25b15ce4-a62b-4c3b-aeb7-f93eaebd0659)
+OUTPUT :
 ![encapsulasi](https://github.com/user-attachments/assets/6fa5e3d0-f91b-482f-b07d-f1c52728aeb6)
 
 
@@ -211,7 +216,10 @@ echo "<br>";
 echo $dosen->getmataKuliah();//Output pemrograman web 2
 echo "<br>";
 ~~~
-## Output :
+DOKUMENTASI PROGRAM :
+![inheritance](https://github.com/user-attachments/assets/c1aa4720-4dd0-4374-82aa-e132ba510a37)
+
+OUTPUT:
 ![inherentace](https://github.com/user-attachments/assets/e9a340fb-e606-4220-bba0-18c63fa6e3d5)
 
 
@@ -290,7 +298,9 @@ $mahasiswa = new mahasiswa();
 $mahasiswa->setNama("Aulia Zuifani");// mengatur nama mahasiswa dengan memanggil metode setNama() dan menetapkan nilai "Aulia Zuifani"
 $mahasiswa->aksesFitur();// memanggil metode aksesFitur() dari class mahasiswa
 ~~~
-## Output :
+DOKUMENTASI PROGRAM :
+![polymor](https://github.com/user-attachments/assets/76b80321-c23b-4d6e-98ae-c6148d12c092)
+OUTPUT :
 ![poly](https://github.com/user-attachments/assets/40e1bbdf-d1cc-4528-9e3f-7319c6cf2633)
 
 ## 5. Abstraction
@@ -355,7 +365,10 @@ $mahasiswa = new mahasiswa();
 $mahasiswa->setNama("Aulia Zuifani");// mengatur nama mahasiswa dan menginputkan dengan menggunakan metode setNama()
 $mahasiswa->aksesFitur();// memanggil metode aksesFitur() untuk menampilkan nama mahasiswa dan fitur yang diakses
 ~~~
-## Output:
+DOKUMENTASI PROGRAM :
+![abstrac](https://github.com/user-attachments/assets/aa34e3b7-fd76-4b8d-b908-b2f1e9a0c176)
+
+OUTPUT :
 ![abstrak](https://github.com/user-attachments/assets/5b0e9856-7015-45b8-9702-9a170fb8c5b3)
 
 
