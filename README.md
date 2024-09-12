@@ -21,7 +21,8 @@ Repositori ini berisi Materi, Modul dan Jobsheet Object Oriented Programming OOP
 
 
 # Apa itu OOP ?
-![image](https://github.com/user-attachments/assets/54c22846-1715-428e-bf0e-c0f8b698868a)
+![image](https://github.com/user-attachments/assets/85121404-e765-4668-9ada-2a4063fd02e4)
+
 
 ### OOP (Object-Oriented Programming) adalah suatu paradigma pemrograman yang menggunakan konsep "objek" dan "kelas" untuk merancang dan mengembangkan perangkat lunak. OOP adalah salah satu pendekatan yang populer dalam pemrograman karena memberikan cara yang terstruktur untuk mengatur kode, membuatnya lebih mudah dipahami, dikelola, dan diperluas.
 ### Sejarah OOP
